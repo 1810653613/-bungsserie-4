@@ -10,7 +10,8 @@ public class Car
 
     public void currentSpeed()
     {
-        JOptionPane.showMessageDialog(null,"Die Geschwindigkeit beträgt: "+ speed);
+
+        System.out.println("Die Geschwindigkeit beträgt: "+ speed + "km/h");
     }
 
     public Car(String Color, Integer wheels,double speed)
