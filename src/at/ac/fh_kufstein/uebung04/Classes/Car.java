@@ -36,14 +36,19 @@ public class Car
         return speed;
     }
 
-    public double accelerate(double Geschwindigkeit)
+    public void accelerate(double geschwindigkeit)
     {
-        return speed+Geschwindigkeit;
+        speed=speed+geschwindigkeit;
     }
 
-    public double slowdown(double Geschwindigkeit)
+    public void slowdown(double geschwindigkeit)
     {
-        return speed-Geschwindigkeit;
+        speed=speed-geschwindigkeit;
+    }
+
+    public Car()
+    {
+
     }
 
 }
